@@ -45,8 +45,8 @@ cd sign-language-recognition
 ### 2. Create & Activate Virtual Environment
 python -m venv venv
 
-# On Windows
+**On Windows**
 venv\Scripts\activate
 
-# On macOS/Linux
+**On macOS/Linux**
 source venv/bin/activate
