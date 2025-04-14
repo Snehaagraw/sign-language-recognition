@@ -38,14 +38,14 @@ python gui.py
 🏋️‍♀️ To Retrain the Model
 python train.py
 
-🧠 Model
+2. **🧠 Model:**
 -Uses hand landmarks (x, y, z) from Mediapipe.
 
 -Trained using TensorFlow Keras Sequential model.
 
 -Saves model in .keras format for GUI use.
 
-🚀 Future Upgrades
+3. **🚀 Future Upgrades**
 -Word/Sentence construction from alphabet stream
 
 -Word-level gesture classification
@@ -54,5 +54,5 @@ python train.py
 
 -Confidence scoring & error handling
 
-🙋‍♀️ Author
+**🙋‍♀️ Author**
 Krishanangi Agrawal
