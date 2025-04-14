@@ -5,10 +5,6 @@ A real-time sign language recognition system that uses a webcam to recognize han
 - **TensorFlow/Keras** for gesture classification
 - **Tkinter GUI** for a simple live interface
 
-## 📸 Demo
-
-![demo](assets/demo.gif) <!-- Add a demo GIF or image here if available -->
-
 ## 📁 Project Structure
 
 sign-language-recognition/ ├── gui.py # GUI application for real-time predictions ├── train.py # Training script for model ├── models/ │ └── sign_model.keras # Trained model saved in .keras format ├── datasets/ # Folder to store gesture data (optional to upload) ├── requirements.txt # List of all required Python packages ├── README.md # Project documentation └── .gitignore
@@ -38,14 +34,16 @@ python gui.py
 🏋️‍♀️ To Retrain the Model
 python train.py
 
-2. **🧠 Model:**
+---
+
+##🧠 Model
 -Uses hand landmarks (x, y, z) from Mediapipe.
 
 -Trained using TensorFlow Keras Sequential model.
 
 -Saves model in .keras format for GUI use.
 
-3. **🚀 Future Upgrades**
+##🚀 Future Upgrades
 -Word/Sentence construction from alphabet stream
 
 -Word-level gesture classification
@@ -54,5 +52,5 @@ python train.py
 
 -Confidence scoring & error handling
 
-**🙋‍♀️ Author**
+##🙋‍♀️ Author
 Krishanangi Agrawal
